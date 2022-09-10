@@ -6,9 +6,14 @@
         NumbersBetween(m, n);
 }
 
-Console.WriteLine("Введите значения начала и конца промежутка");
-int m = int.Parse(Console.ReadLine());
-int n = int.Parse(Console.ReadLine());
+int m = 1;
+int n = 5;
 
-Console.WriteLine("\nПромежуток:");
+Console.Write("\nПромежуток от {0} до {1}: ", m, n);
+NumbersBetween(m, n);
+
+m = 4;
+n = 8;
+
+Console.Write("\n\nПромежуток от {0} до {1}: ", m, n);
 NumbersBetween(m, n);
